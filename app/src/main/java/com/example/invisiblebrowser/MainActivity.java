@@ -32,8 +32,62 @@ Window window;
 
 
     }
-    public void openTwitter(View view){
-        Intent launchIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https:/www.facebook.com"));
+    public void openInstagram(View view){
+        Intent launchIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/accounts/login/?hl=hu"));
+        startActivity(launchIntent);
+
+    }
+
+    public void openXbox(View view){
+        Intent launchIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.xbox.com/hu-HU/"));
+        startActivity(launchIntent);
+
+    }
+
+    public void openTeams(View view){
+        Intent launchIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=13&rver=7.3.6963.0&wp=MBI_SSL&wreply=https%3a%2f%2fproducts.office.com%2fen-US%2fmicrosoft-teams%2fgroup-chat-software&lc=1033&id=290950&aadredir=1"));
+        startActivity(launchIntent);
+
+    }
+
+    public void openPlayStation(View view){
+        Intent launchIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.playstation.com/hu-hu/"));
+        startActivity(launchIntent);
+
+    }
+
+    public void openSkype(View view){
+        Intent launchIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.skype.com/hu/"));
+        startActivity(launchIntent);
+
+    }
+
+    public void openDiscord(View view){
+        Intent launchIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://discordapp.com/download"));
+        startActivity(launchIntent);
+
+    }
+
+    public void openTwitch(View view){
+        Intent launchIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.twitch.tv/"));
+        startActivity(launchIntent);
+
+    }
+
+    public void openYoutube(View view){
+        Intent launchIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/"));
+        startActivity(launchIntent);
+
+    }
+
+    public void openTell(View view){
+        Intent launchIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://tell.hu/hu"));
+        startActivity(launchIntent);
+
+    }
+
+    public void openClassroom(View view){
+        Intent launchIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://classroom.google.com"));
         startActivity(launchIntent);
 
     }
