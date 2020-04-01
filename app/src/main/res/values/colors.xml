@@ -10,6 +10,6 @@
     <color name="colorAccent">#1e344b</color>
 
     <color name="colorBackground">#f9f9fa</color>
-    <color name="gray">#323232</color>
-    <color name="colorTextTitle">#262626</color>
+    <color name="gray">#D7FFFFFF</color>
+    <color name="colorTextTitle">#191919</color>
 </resources>

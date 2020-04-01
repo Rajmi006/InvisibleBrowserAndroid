@@ -57,7 +57,7 @@
         android:id="@+id/facebook"
         android:layout_width="61dp"
         android:layout_height="61dp"
-        android:background="@drawable/facebook"
+        android:background="@drawable/ps4"
         android:onClick="openTwitter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -78,10 +78,10 @@
         app:layout_constraintVertical_bias="0.136"></ImageButton>
 
     <ImageButton
-        android:id="@+id/kreta"
+        android:id="@+id/xbox"
         android:layout_width="61dp"
         android:layout_height="61dp"
-        android:background="@drawable/kreta"
+        android:background="@drawable/xbox"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.274"
@@ -198,7 +198,7 @@
     <TextView
         android:layout_width="61dp"
         android:layout_height="70dp"
-        android:text="Kréta"
+        android:text="Xbox"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.316"
@@ -218,15 +218,15 @@
         app:layout_constraintVertical_bias="0.252" />
 
     <TextView
-        android:layout_width="69dp"
-        android:layout_height="69dp"
-        android:text="Facebook"
+        android:layout_width="91dp"
+        android:layout_height="75dp"
+        android:text="PlayStation"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.743"
+        app:layout_constraintHorizontal_bias="0.78"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.247" />
+        app:layout_constraintVertical_bias="0.251" />
 
     <TextView
         android:layout_width="66dp"
@@ -262,12 +262,12 @@
         app:layout_constraintVertical_bias="0.399" />
 
     <TextView
-        android:layout_width="63dp"
-        android:layout_height="31dp"
-        android:text="Tanterem"
+        android:layout_width="142dp"
+        android:layout_height="33dp"
+        android:text="Classroom"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.721"
+        app:layout_constraintHorizontal_bias="0.94"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.399" />
