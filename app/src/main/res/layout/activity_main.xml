@@ -13,17 +13,15 @@
         android:background="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.048"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.439"
-        ></ImageView>
-
+        app:layout_constraintVertical_bias="0.0"></ImageView>
 
     <ImageView
         android:id="@+id/red_ellipse"
-        android:layout_width="1175dp"
-        android:layout_height="383dp"
+        android:layout_width="1174dp"
+        android:layout_height="359dp"
         android:background="@drawable/redder_ellipse"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -120,7 +118,7 @@
         android:background="@drawable/tell"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.951"
+        app:layout_constraintHorizontal_bias="0.725"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.302"></ImageButton>
@@ -144,7 +142,7 @@
         android:background="@drawable/tanterem"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.725"
+        app:layout_constraintHorizontal_bias="0.948"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.302"></ImageButton>
@@ -240,12 +238,12 @@
         app:layout_constraintVertical_bias="0.397" />
 
     <TextView
-        android:layout_width="60dp"
-        android:layout_height="34dp"
+        android:layout_width="51dp"
+        android:layout_height="33dp"
         android:text="Tell"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.993"
+        app:layout_constraintHorizontal_bias="0.757"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.4" />
@@ -262,15 +260,15 @@
         app:layout_constraintVertical_bias="0.399" />
 
     <TextView
-        android:layout_width="142dp"
-        android:layout_height="33dp"
+        android:layout_width="78dp"
+        android:layout_height="42dp"
         android:text="Classroom"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.94"
+        app:layout_constraintHorizontal_bias="0.996"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.399" />
+        app:layout_constraintVertical_bias="0.405" />
 
     <TextView
         android:layout_width="45dp"
