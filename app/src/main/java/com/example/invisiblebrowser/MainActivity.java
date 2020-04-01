@@ -33,7 +33,7 @@ Window window;
 
     }
     public void openInstagram(View view){
-        Intent launchIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/accounts/login/?hl=hu"));
+        Intent launchIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.epicgames.com/fortnite/en-US/news/category/patch%20notes"));
         startActivity(launchIntent);
 
     }
